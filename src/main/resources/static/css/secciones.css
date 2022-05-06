@@ -1,0 +1,104 @@
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: "uno dos tres";
+}
+
+.boton-uno {
+display: flex;
+align-self: center;
+margin-top: 150px;
+top: 150px;
+width: 200px;
+height: 200px;
+background-color: lightblue;
+border-radius: 30px;
+grid-area: uno;
+}
+
+.boton-uno-hospital {
+display: flex;
+justify-content: center;
+padding-top: 10px;
+padding-left: 10px;
+text-decoration: none;
+color: white;
+font-size:20px;
+}
+
+.boton-uno-icono {
+    width: 160px;
+    height: 160px;
+}
+
+.absolute {
+    grid-area: uno;
+    padding-top: 190px;
+    padding-left: 10px;
+}
+.boton-dos {
+    display: flex;
+    align-self: center;
+    margin-top: 150px;
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 30px;
+    grid-area: dos;
+}
+
+.boton-dos-farmacia {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+.boton-dos-icono {
+    width: 160px;
+    height: 160px;
+}
+
+.absolute-dos {
+    grid-area: dos;
+    padding-top: 190px;
+    padding-left: 10px;
+}
+
+.boton-tres {
+    display: flex;
+    align-self: center;
+    margin-top: 150px;
+    top: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 30px;
+    grid-area: tres;
+}
+
+.boton-tres-medicamentos {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+.boton-tres-icono {
+    width: 160px;
+    height: 160px;
+}
+
+.absolute-tres {
+   grid-area: tres;
+   padding-top: 190px;
+   padding-left: 10px;
+}

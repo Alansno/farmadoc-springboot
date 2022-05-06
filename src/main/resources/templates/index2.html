@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmaDoc</title>
+    <link rel="icon" href="static/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg" th:href="@{/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg}">
+    <link rel="icon" href="assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/ilustracion.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header class="nav">
+       <nav class="nav-estructura">
+             <ul class="nav-opciones">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="mailto:farmadoc1230@gmail.com?Subject=Farmadoc%20%20%20">Contacto</a></li>
+                 <li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Salir</a></li>
+                 <li><span sec:authentication="principal.username"></span></li>
+             </ul>
+       </nav>
+    </header> 
+
+   <video class="farmadoc" src="static/assets/Farmadocvideo.mp4" th:src="@{/assets/Farmadocvideo.mp4}" autoplay loop></video>
+      
+   <main class="botones">
+    <div class="boton-uno">
+        <a class="boton-uno-hospital" th:href="@{/consultorios}">Encuentra un consultorio</a>
+       </div>
+       <div class="absolute">
+          <a th:href="@{/consultorios}"><img class="boton-uno-icono" src="assets/undraw_doctors_hwty.svg" alt="doctors"></a>
+       </div>
+       <div class="boton-dos">
+        <a class="boton-dos-farmacia" th:href="@{/farmacias}">Encuentra una farmacia</a>
+       </div>
+       <div class="absolute-dos">
+          <a th:href="@{/farmacias}"><img class="boton-dos-icono" src="assets/undraw_medical_care_movn.svg" alt="farmacia"></a>
+       </div>
+       <div class="boton-tres">
+        <a class="boton-tres-medicamentos" th:href="@{/usuarios/admin}">Administración</a>
+       </div>
+       <div class="absolute-tres">
+          <a th:href="@{/usuarios/admin}"><img class="boton-tres-icono" src="assets/undraw_medicine_b-1-ol.svg" alt="doctors"></a>
+       </div>
+   </main>
+</body>
+</html>

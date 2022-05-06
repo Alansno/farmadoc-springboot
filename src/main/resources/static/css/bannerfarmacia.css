@@ -1,0 +1,13 @@
+.banner-farmacia {
+    position: relative; 
+    background-image: linear-gradient(
+      rgba(0, 255, 255, 0.1), 
+      rgba(0, 255, 255, 0.1)
+    ),
+    url('../assets/WhatsApp\ Image\ 2022-03-22\ at\ 10.56.29\ AM.jpeg');
+    top: 70px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}

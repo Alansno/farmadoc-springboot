@@ -1,0 +1,570 @@
+.consultorios {
+    display: grid;
+    grid-template-areas: "uno dos";
+    margin-top: 100px;
+}
+
+.consultorio-uno {
+     border-style: ridge;
+     width: 600px;
+     height: 250px;
+     grid-area: uno;
+    }
+
+.consultorio-uno-detalles {
+    display: flex;
+    position: relative;
+}    
+
+.consultorio-uno-detalles img {
+    position: absolute;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-uno-detalles h2 {
+    padding-left: 80px;
+}
+
+.consultorio-uno-texto{
+    position: absolute;
+    font-size: 15px;
+    padding-left: 250px;
+    padding-bottom: 70px;
+}
+
+.consultorio-uno-texto2 {
+    position: absolute;
+    font-size: 15px;
+    padding-left: 280px;
+    padding-top: 70px;
+}
+
+.consultorio-boton-uno {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.consultorio-boton-uno span {
+    position: relative;
+    z-index: 3;
+    transition: .3s ease all;
+}
+
+.consultorio-boton {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    padding-top: 150px;
+}
+
+.consultorio-boton-uno {
+    background: beige;
+    color: black;
+}
+
+.consultorio-boton-uno:hover {
+    background-color: turquoise;
+}
+
+.consultorio-boton-dos {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: ridge;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.consultorio-boton-dos span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.masinfo-boton {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    padding-top: 150px;
+    padding-left: 299px;
+}
+
+.consultorio-boton-dos {
+    background: beige;
+    color: black;
+}
+
+.consultorio-boton-dos:hover {
+    background-color: turquoise;
+}
+
+.consultorio-dos {
+    border-style: ridge;
+    width: 600px;
+    height: 250px;
+    grid-area: dos;
+   }
+
+.consultorio-dos-detalles {
+   display: flex;
+   position: relative;
+}    
+
+.consultorio-dos-detalles img {
+   position: absolute;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-dos-detalles h2 {
+   padding-left: 80px;
+}
+
+.consultorio-dos-texto{
+   position: absolute;
+   font-size: 15px;
+   padding-left: 250px;
+   padding-bottom: 70px;
+}
+
+.consultorio-dos-texto2 {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 280px;
+   padding-top: 70px;
+}
+
+.consultorio-dos-boton_uno {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 599px;
+   height: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   border-style: ridge;
+   cursor: pointer;
+   transition: .3s ease all;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+
+.consultorio-dos-boton_uno span {
+   position: relative;
+   z-index: 3;
+   transition: .3s ease all;
+}
+
+.consultorio-dos-boton {
+   display: flex;
+   position: absolute;
+   align-self: center;
+   padding-top: 150px;
+}
+
+.consultorio-dos-boton_uno {
+   background: beige;
+   color: black;
+}
+
+.consultorio-dos-boton_uno:hover {
+   background-color: turquoise;
+}
+
+.consultorio-tres {
+    border-style: ridge;
+    width: 600px;
+    height: 250px;
+    grid-area: uno;
+    margin-top: 270px;
+   }
+
+.consultorio-tres-detalles {
+   display: flex;
+   position: relative;
+}    
+
+.consultorio-tres-detalles img {
+   position: absolute;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-tres-detalles h2 {
+   padding-left: 80px;
+}
+
+.consultorio-tres-texto{
+   position: absolute;
+   font-size: 15px;
+   padding-left: 250px;
+   padding-bottom: 70px;
+}
+
+.consultorio-tres-texto2 {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 280px;
+   padding-top: 70px;
+}
+
+.consultorio-tres-boton_uno {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 599px;
+   height: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   border-style: ridge;
+   cursor: pointer;
+   transition: .3s ease all;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+
+.consultorio-tres-boton_uno span {
+   position: relative;
+   z-index: 3;
+   transition: .3s ease all;
+}
+
+.consultorio-tres-boton {
+   display: flex;
+   position: absolute;
+   align-self: center;
+   padding-top: 150px;
+}
+
+.consultorio-tres-boton_uno {
+   background: beige;
+   color: black;
+}
+
+.consultorio-tres-boton_uno:hover {
+   background-color: turquoise;
+}
+
+.consultorio-cuatro {
+    border-style: ridge;
+    width: 600px;
+    height: 250px;
+    grid-area: dos;
+    margin-top: 270px;
+   }
+
+.consultorio-cuatro-detalles {
+   display: flex;
+   position: relative;
+}    
+
+.consultorio-cuatro-detalles img {
+   position: absolute;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-cuatro-detalles h2 {
+   padding-left: 80px;
+}
+
+.consultorio-cuatro-texto{
+   position: absolute;
+   font-size: 15px;
+   padding-left: 250px;
+   padding-bottom: 70px;
+}
+
+.consultorio-cuatro-texto2 {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 280px;
+   padding-top: 70px;
+}
+
+.consultorio-cuatro-boton_uno {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 298px;
+   height: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   border-style: ridge;
+   cursor: pointer;
+   transition: .3s ease all;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+
+.consultorio-cuatro-boton_uno span {
+   position: relative;
+   z-index: 3;
+   transition: .3s ease all;
+}
+
+.consultorio-cuatro-boton {
+   display: flex;
+   position: absolute;
+   align-self: center;
+   padding-top: 150px;
+}
+
+.consultorio-cuatro-boton_uno {
+   background: beige;
+   color: black;
+}
+
+.consultorio-cuatro-boton_uno:hover {
+   background-color: turquoise;
+}
+
+.consultorio-cuatro-boton_dos {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: ridge;
+    cursor: pointer;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+ }
+ 
+ .consultorio-cuatro-boton_dos span {
+    position: relative;
+    z-index: 3;
+    transition: .3s ease all;
+ }
+ 
+ .masinfo-cuatro-boton {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    padding-top: 150px;
+    padding-left: 299px;
+ }
+ 
+ .consultorio-cuatro-boton_dos {
+    background: beige;
+    color: black;
+ }
+ 
+ .consultorio-cuatro-boton_dos:hover {
+    background-color: turquoise;
+ }
+
+ .consultorio-cinco {
+    border-style: ridge;
+    width: 600px;
+    height: 250px;
+    grid-area: uno;
+    margin-top: 540px;
+   }
+
+.consultorio-cinco-detalles {
+   display: flex;
+   position: relative;
+}    
+
+.consultorio-cinco-detalles img {
+   position: absolute;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-cinco-detalles h2 {
+   padding-left: 80px;
+}
+
+.consultorio-cinco-texto{
+   position: absolute;
+   font-size: 15px;
+   padding-left: 250px;
+   padding-bottom: 70px;
+}
+
+.consultorio-cinco-texto2 {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 280px;
+   padding-top: 70px;
+}
+
+.consultorio-cinco-boton_uno {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 599px;
+   height: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   border-style: ridge;
+   cursor: pointer;
+   transition: .3s ease all;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+
+.consultorio-cinco-boton_uno span {
+   position: relative;
+   z-index: 3;
+   transition: .3s ease all;
+}
+
+.consultorio-cinco-boton {
+   display: flex;
+   position: absolute;
+   align-self: center;
+   padding-top: 150px;
+}
+
+.consultorio-cinco-boton_uno {
+   background: beige;
+   color: black;
+}
+
+.consultorio-cinco-boton_uno:hover {
+   background-color: turquoise;
+}
+
+.consultorio-seis {
+    border-style: ridge;
+    width: 600px;
+    height: 250px;
+    grid-area: dos;
+    margin-top: 540px;
+   }
+
+.consultorio-seis-detalles {
+   display: flex;
+   position: relative;
+}    
+
+.consultorio-seis-detalles img {
+   position: absolute;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 5px 16px 4px rgba(255,255,255,0);
+height: 80px;
+width: 150px;
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.consultorio-seis-detalles h2 {
+   padding-left: 80px;
+}
+
+.consultorio-seis-texto{
+   position: absolute;
+   font-size: 15px;
+   padding-left: 250px;
+   padding-bottom: 70px;
+}
+
+.consultorio-seis-texto2 {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 280px;
+   padding-top: 70px;
+}
+
+.consultorio-seis-boton_uno {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 599px;
+   height: 30px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   border-style: ridge;
+   cursor: pointer;
+   transition: .3s ease all;
+   position: relative;
+   overflow: hidden;
+   text-decoration: none;
+}
+
+.consultorio-seis-boton_uno span {
+   position: relative;
+   z-index: 3;
+   transition: .3s ease all;
+}
+
+.consultorio-seis-boton {
+   display: flex;
+   position: absolute;
+   align-self: center;
+   padding-top: 150px;
+}
+
+.consultorio-seis-boton_uno {
+   background: beige;
+   color: black;
+}
+
+.consultorio-seis-boton_uno:hover {
+   background-color: turquoise;
+}

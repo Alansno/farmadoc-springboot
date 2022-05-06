@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg" th:href="@{/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg}">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/ilustraciondos.css">
+    <link rel="stylesheet" href="css/consultorios.css">
+    <title>Consultorios</title>
+</head>
+<body>
+    <header class="nav">
+        <nav class="nav-estructura">
+              <ul class="nav-opciones">
+                 <li><a th:href="@{/farmadoc}">Inicio</a></li>
+                  <li><a href="mailto:farmadoc1230@gmail.com?Subject=Farmadoc%20%20%20">Contacto</a></li>
+                  <li><span sec:authentication="principal.username"></span></li>
+              </ul>
+        </nav>
+     </header> 
+
+     <section class="ilustracion"></section>
+
+     <main class="consultorios">
+         <article class="consultorio-uno">
+             <div class="consultorio-uno-detalles">
+                 <h2>Sanatorio La Divina Providencia</h2>
+                 <img src="assets/sanatorio la divina providencia.jpg" alt="Sanatorio La Divina Providencia"> 
+             </div>
+             <p class="consultorio-uno-texto">14A. SUR PONIENTE 391, SAN FRANCISCO, <br> TUXTLA GUTIERREZ , CHIS , C.P.29066</p>
+             <p class="consultorio-uno-texto2">(961)663-7622</p>
+             
+             <div class="consultorio-boton">
+                <a class="consultorio-boton-uno" href="https://sanatorioladivinaprovidencia.miadn.mx/?utm_source=SeccionAmarilla&utm_medium=Listado-de-Resultados&utm_campaign=996264395&utm_term=hospitales-sanatorios-y-clinicas" target="-blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+
+            <div class="masinfo-boton">
+                <a class="consultorio-boton-dos" href="#button2">
+                    <span>Más información</span>
+                </a>
+            </div>
+         </article>
+
+         <article class="consultorio-dos">
+            <div class="consultorio-dos-detalles">
+                <h2>Sanatorio Muñoa</h2>
+                <img src="assets/sanatorio muñoa" alt="Sanatorio Muñoa"> 
+            </div>
+            <p class="consultorio-dos-texto">3A ORIENTE SUR 142, CENTRO<br> TUXTLA GUTIERREZ , CHIS , C.P.29000</p>
+            <p class="consultorio-dos-texto2">(961)612-0270</p>
+            
+            <div class="consultorio-dos-boton">
+               <a class="consultorio-dos-boton_uno" href="#button">
+                   <span>Más información</span>
+               </a>
+           </div>
+        </article>
+
+        <article class="consultorio-tres">
+            <div class="consultorio-tres-detalles">
+                <h2>Sanatorio Paredes</h2>
+                <img src="assets/Sanatorio Paredes" alt="Sanatorio Paredes"> 
+            </div>
+            <p class="consultorio-tres-texto">AV CENTRAL PONIENTE 1033, CENTRO<br>  TUXTLA GUTIERREZ , CHIS , C.P.29000</p>
+            <p class="consultorio-tres-texto2">(961)613-0763</p>
+            
+            <div class="consultorio-tres-boton">
+               <a class="consultorio-tres-boton_uno" href="#button">
+                   <span>Más información</span>
+               </a>
+           </div>
+        </article>
+
+        <article class="consultorio-cuatro">
+            <div class="consultorio-cuatro-detalles">
+                <h2>Sanatorio Rojas</h2>
+                <img src="assets/sanatorio rojas.jpeg" alt="Sanatorio Rojas"> 
+            </div>
+            <p class="consultorio-cuatro-texto">14 PONIENTE SUR 365, TUXTLA GUTIERREZ<br> CENTRO , TUXTLA GUTIERREZ , CHIS , C.P.29000</p>
+            <p class="consultorio-cuatro-texto2">(961)121-5944</p>
+            
+            <div class="consultorio-cuatro-boton">
+               <a class="consultorio-cuatro-boton_uno" href="https://www.hospitalrojas.com.mx/" target="_blank">
+                   <span>Sitio web</span>
+               </a>
+           </div>
+           <div class="masinfo-cuatro-boton">
+            <a class="consultorio-cuatro-boton_dos" href="#button">
+                <span>Más información</span>
+            </a>
+        </div>
+        </article>
+
+        <article class="consultorio-cinco">
+            <div class="consultorio-cinco-detalles">
+                <h2>Cisssa hospital materno</h2>
+                <img src="assets/sin imagen.webp" alt="Sin imagen"> 
+            </div>
+            <p class="consultorio-cinco-texto">CLLE 9 A SUR PONIENTE, SAN ROQUE<br> TUXTLA GUTIERREZ , CHIS , C.P.29040</p>
+            <p class="consultorio-cinco-texto2">(961) 612 4935</p>
+            
+            <div class="consultorio-cinco-boton">
+               <a class="consultorio-cinco-boton_uno" href="#button">
+                   <span>Más información</span>
+               </a>
+           </div>
+        </article>
+
+        <article class="consultorio-seis">
+            <div class="consultorio-seis-detalles">
+                <h2>Clinica de la mujer</h2>
+                <img src="assets/clinica de la mujer.png" alt="Clinica de la mujer"> 
+            </div>
+            <p class="consultorio-seis-texto">AVE AVE 4A SUR PTE NO 553, CENTRO <br>, TUXTLA GUTIERREZ , CHIS , C.P.29000</p>
+            <p class="consultorio-seis-texto2">(961) 612 8738</p>
+            
+            <div class="consultorio-seis-boton">
+               <a class="consultorio-seis-boton_uno" href="#button">
+                   <span>Más información</span>
+               </a>
+           </div>
+        </article>
+     </main>
+</body>
+</html>

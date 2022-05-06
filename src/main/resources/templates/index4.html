@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg" th:href="@{/assets/WhatsApp Image 2022-03-14 at 11.56.23 PM.jpeg}">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/bannerfarmacia.css">
+    <link rel="stylesheet" href="css/consultorios.css">
+    <title>Farmacias</title>
+</head>
+<body>
+    <header class="nav">
+        <nav class="nav-estructura">
+              <ul class="nav-opciones">
+                 <li><a th:href="@{/farmadoc}">Inicio</a></li>
+                  <li><a href="mailto:farmadoc1230@gmail.com?Subject=Farmadoc%20%20%20">Contacto</a></li>
+                  <li><span sec:authentication="principal.username"></span></li>
+              </ul>
+        </nav>
+     </header> 
+
+     <section class="banner-farmacia"></section>
+
+    <main class="consultorios">
+        <article class="consultorio-uno">
+            <div class="consultorio-uno-detalles">
+                <h2>Farmacia Guadalajara</h2>
+                <img src="assets/farmacias guadalajara.png" alt="Farmacia guadalajara">
+            </div>
+            <p class="consultorio-uno-texto">Av. Central Poniente #343, <br> 29000 Tuxtla Gutiérrez</p>
+            <p class="consultorio-uno-texto2">9616127807</p>
+
+            <div class="consultorio-boton">
+                <a class="consultorio-boton-uno" href="https://www.farmaciasguadalajara.com/es/farmaciasguadalajara" target="-blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+
+            <div class="masinfo-boton">
+                <a class="consultorio-boton-dos" href="#button2">
+                    <span>Más información</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="consultorio-dos">
+            <div class="consultorio-dos-detalles">
+                <h2>Farmacia Del Ahorro</h2>
+                <img src="assets/farmacia del ahorro.png" alt="Farmacia del Ahorro">
+            </div>
+            <p class="consultorio-dos-texto">Av Central Poniente 111 Col: Centro, <br> 29000 Tuxtla Gutiérrez</p>
+            <p class="consultorio-dos-texto2">9616026677</p>
+
+            <div class="consultorio-dos-boton">
+                <a class="consultorio-dos-boton_uno" href="https://www.fahorro.com/" target="_blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="consultorio-tres">
+            <div class="consultorio-tres-detalles">
+                <h2>Farmacias Similares</h2>
+                <img src="assets/farmacias similares.png" alt="Farmacias Similares">
+            </div>
+            <p class="consultorio-tres-texto">Av. central oriente 443, 29000<br>  TUXTLA GUTIERREZ , CHIS</p>
+            <p class="consultorio-tres-texto2"></p>
+
+            <div class="consultorio-tres-boton">
+                <a class="consultorio-tres-boton_uno" href="https://farmaciasdesimilares.com/#!/" target="_blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="consultorio-cuatro">
+            <div class="consultorio-cuatro-detalles">
+                <h2>GNC</h2>
+                <img src="assets/gnc.png" alt="GNC">
+            </div>
+            <p class="consultorio-cuatro-texto">Boulevard Belisario Domínguez No.<br> 2058 Local 08, 29031 Tuxtla Gutiérrez</p>
+            <p class="consultorio-cuatro-texto2"> 961-121-4119</p>
+
+            <div class="consultorio-cuatro-boton">
+                <a class="consultorio-cuatro-boton_uno" href="https://gnc.com.mx/?SID=94eitgkjtvnea0fo0s4s60tlh1/" target="_blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+            <div class="masinfo-cuatro-boton">
+                <a class="consultorio-cuatro-boton_dos" href="#button">
+                    <span>Más información</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="consultorio-cinco">
+            <div class="consultorio-cinco-detalles">
+                <h2>Farmacias Especializadas</h2>
+                <img src="assets/farmacias especial.png" alt="Farmacias Especializadas">
+            </div>
+            <p class="consultorio-cinco-texto">2a. Oriente Norte No. 144 Col.<br> Centro, 29000 Tuxtla Gutiérrez</p>
+            <p class="consultorio-cinco-texto2">(961)6146454</p>
+
+            <div class="consultorio-cinco-boton">
+                <a class="consultorio-cinco-boton_uno" href="https://www.farmaciasespecializadas.com/home" target="_blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+        </article>
+
+        <article class="consultorio-seis">
+            <div class="consultorio-seis-detalles">
+                <h2>Farmapronto</h2>
+                <img src="assets/farmapronto.png" alt="Farmapronto">
+            </div>
+            <p class="consultorio-seis-texto">6 AV.SUR PTE. # 404-A CENTRO,<br> 29000 Tuxtla Gutiérrez</p>
+            <p class="consultorio-seis-texto2">961 212 5759</p>
+
+            <div class="consultorio-seis-boton">
+                <a class="consultorio-seis-boton_uno" href="http://www.grupofarmapronto.com/" target="_blank">
+                    <span>Sitio web</span>
+                </a>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

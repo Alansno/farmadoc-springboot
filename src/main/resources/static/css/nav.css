@@ -1,0 +1,32 @@
+.nav {
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    width: 100%; 
+    height: 70px;
+    top: 0;
+}
+
+.nav-estructura {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.nav-opciones{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    
+}
+
+.nav-opciones li {
+    padding: 0 15px;
+}
+
+.nav-opciones a {
+    text-decoration: none;
+    color: black;
+}

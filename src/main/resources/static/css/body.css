@@ -1,0 +1,116 @@
+
+body {
+ background-color: black;
+
+}
+
+.fondo {
+ display: grid;
+ grid-template-areas: "login img";
+ grid-template-columns: 1fr 1fr;
+}
+
+.fondo-medicos {
+ position: relative;
+ display: flex;
+ justify-content: center;
+width: 1024px;
+height: 600px;
+ 
+ grid-area: img;
+}
+
+.inicia {
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    align-self: flex-end;
+    padding-left: 100px;
+    color: turquoise;
+}
+.form img {
+    display: flex;
+    justify-items: center;
+    padding-left: 30px;
+    height: 250px;
+
+}
+
+form {
+    background: white;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+
+}
+
+form .grupo {
+    position: relative;
+    margin: 45px;
+
+}
+
+input {
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid turquoise;
+
+}
+
+input:focus {
+    outline: none;
+    color: black;
+
+}
+
+label {
+    color: gray;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color: turquoise;
+
+}
+
+button {
+    background: turquoise;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.nuevo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: turquoise;
+
+}
